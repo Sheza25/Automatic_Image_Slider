@@ -17,6 +17,7 @@ let dot=document.querySelectorAll(".dot");
     }
   });
 };
+updateDots();
 prevBtn.addEventListener("click",()=>{
   index--;
   if(index<0){
